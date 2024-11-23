@@ -1,0 +1,88 @@
+.nav {
+    background: #FF4000;
+    height: 140px ;
+}
+
+.lin{
+    color: white;
+}
+
+.tex{
+    color: #FF4000;
+}
+
+.h2c{
+    color: #F75E25;
+}
+
+.sc{
+    background-color: #FF4000;
+}
+
+.custom-card {
+    background-color: #F08259;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 60px 0;
+    display: flex;
+    align-items: center;
+}
+.custom-card img {
+    width: 100px;
+    margin-right: 20px;
+}
+.custom-card h2 {
+    margin-bottom: 10px;
+}
+.custom-card p {
+    margin: 0;
+}
+.custom-card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.whatsapp-info {
+    flex: 1;
+}
+.whatsapp-info h4 {
+    color: #f47c47;
+    font-weight: bold;
+}
+.whatsapp-info p {
+    margin-bottom: 10px;
+}
+.whatsapp-info ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.whatsapp-info ul li {
+    list-style-type: circle;
+    margin-bottom: 5px;
+}
+.whatsapp-btn {
+    background-color: #FF4000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.whatsapp-btn:hover {
+    background-color: #e0693c;
+}
+.whatsapp-image img {
+    width: 100%;
+    width: 1;
+    border-radius: 15px;
+    height: 371px;
+}
