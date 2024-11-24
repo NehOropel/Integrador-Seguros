@@ -86,3 +86,15 @@
     border-radius: 15px;
     height: 371px;
 }
+
+.footer{
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 175px;
+    margin-top: 20px;
+}
+
+.ulclass{
+    color: white;
+}
