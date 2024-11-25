@@ -1,0 +1,81 @@
+/* Estilo nav*/
+.nav {
+    background: #FF4000;
+    height: 140px ;
+}
+/* Estilos de Página de ingreso */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.fondo2 {
+    background: #E9E9E9;
+}
+.bgg { background-color: #FF4000;
+}
+
+.btcc {
+    background-color: #FF4000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.title {
+    color: #e86224;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: semiBold;
+    color: #333;
+}
+
+.textoPrincipal{
+    margin-top: 80px;
+}
+
+#seccion1{
+    margin-top: 80px;
+}
+
+#seccion2{
+    padding-block-end: 90px;
+}
+/* Botones de opciones */
+.btn-primary {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    color: #333;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.btn-option:hover {
+    background-color: #f7f7f7;
+}
+
+/* Botones principales */
+.btn-primary-custom {
+    background-color: #e86224;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.btn-primary-custom:hover {
+    background-color: #cc531d;
+}
+
+/* Card */
+.card {
+    border-radius: 10px;
+    border: none;
+}

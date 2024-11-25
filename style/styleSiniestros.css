@@ -1,0 +1,102 @@
+.nav {
+    background: #FF4000;
+    height: 140px ;
+}
+
+.lin{
+    color: white;
+}
+
+.tex{
+    color: #FF4000;
+}
+
+.h2c{
+    color: #F75E25;
+}
+
+.sc{
+    background-color: #FF4000;
+}
+
+
+
+
+
+
+
+
+/* Pagina de Siniestro */
+
+
+
+
+body{
+    font-family: "Manrope", sans-serif;
+}
+.fondo{
+    padding: 20px;
+    background-color: #F6ECEC;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.titulo-siniestros{
+    font-size: 30px;
+    color: #FF4000;
+}
+
+.text-siniestros{
+    font-size: 18px;
+
+}
+
+
+
+.card .card-body {
+    height: 350px;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card-body .icon{
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.card img{
+    max-width: 70px;
+    max-height: 70px;
+    align-items: end;
+}
+
+.card-body h5{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card-body p{
+    font-size: 16px;
+}
+
+
+
+.card-body .btn{
+    background-color: #FF4000;
+    color: #fff;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+.btn img{
+    width: 20px;
+    height: 20px;
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escudo Seguros</title>
     <link rel="stylesheet" href="scss/custom.css">
+    <link rel="shortcut icon" href="public/icon/escudo.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -26,18 +27,18 @@
                             <a class="nav-link active" aria-current="page" href="pages/Contactanos.html">Contactanos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Siniestros</a>
+                            <a class="nav-link active" aria-current="page" href="pages/siniestros.html">Siniestros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="pages/PreguntasFrecuentes.html">Preguntas Frecuentes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Cotizar</a>
+                            <a class="nav-link active" aria-current="page" href="pages/Cotizar.html ">Cotizar</a>
                         </li>
                     </ul>
                     <button class="btn btn-light d-flex align-items-center gap-2 px-3 py-2 rounded-pill" type="button">
                         <img src="public/icon/Per ingresar.svg" alt="Icono ingresar">
-                        <span>Ingresar</span>
+                        <a href="pages/ingresar.html" class="text-decoration-none text-black"><span>Ingresar</span></a>
                     </button>
                 </div>
             </div>
@@ -144,7 +145,7 @@
                 <h1 class="mb-3 h2c">¿Necesitas ayuda? Contáctanos</h1>
                 <p class="mb-4">Si tenés otras consultas, contactate con nosotros y un asesor responderá tus dudas.</p>
                 <button class="whatsapp-btn sc rounded-pill" style="width: 160px;">
-                    Consúltanos
+                    <a href="pages/Contactanos.html" class="text-decoration-none text-white"><span>Consúltanos</span></a>
                 </button>
             </div>
             <div class="col-md-4 d-flex align-items-center justify-content-center">
@@ -207,7 +208,9 @@
                     <li>Consultar sobre pagos</li>
                     <li>Consultar sobre un siniestro</li>
                 </ul>
-                <button class="whatsapp-btn">Chatear</button>
+                <button class="whatsapp-btn">
+                    <a href="https://web.whatsapp.com/" class="text-decoration-none text-white"><span>Chatear</span></a>
+                </button>
             </div>
 
             <!-- Imagen -->
