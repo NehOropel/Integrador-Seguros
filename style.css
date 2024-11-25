@@ -93,9 +93,7 @@
 }
 .whatsapp-image img {
     width: 100%;
-    width: 1;
     border-radius: 15px;
-    height: 371px;
 }
 
 .footer{
@@ -108,4 +106,15 @@
 
 .ulclass{
     color: white;
+}
+
+.faq-section {
+    background-color: #F6ECEC;
+    border-radius: 10px; 
+    padding: 20px; 
+}
+
+.faq-title {
+    color: #f05922; 
+    font-weight: bold;
 }

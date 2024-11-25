@@ -12,50 +12,510 @@
 <body>
         <!-- navbar -->
         <header>
-            <nav class="nav navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #FF4000;">
                 <div class="container-fluid">
-                    <a class="" href="../index.html">
-                        <img style="height: 130px" src="../public/img/escudo-blan.png" alt="escudo-blan ">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../public/img/escudo-blan.png" alt="escudo-blan" style="height: 80px;">
                     </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="Contactanos.html">Contactanos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Siniestros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="PreguntasFrecuentes.html">Preguntas Frecuentes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Cotizar</a>
+                            </li>
+                        </ul>
+                        <button class="btn btn-light d-flex align-items-center gap-2 px-3 py-2 rounded-pill" type="button">
+                            <img src="../public/icon/Per ingresar.svg" alt="Icono ingresar">
+                            <span>Ingresar</span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+        <!-- PREGUNTAS FRECUENTES -->
+        
+        <div class="container mt-5">
+            <div class="row faq-section">
+                <div class="col-md-6 faq-title">
+                    <H2>Preguntas Frecuentes</H2>
+                </div>
+                <div class="col-md-6">
+                    Te presentamos las respuestas a algunas de las preguntas frecuentes sobre nuestros productos, servicios y coberturas. Para más información, comunicate con nosotros al 0800-666-8400 de lun a vie de 9 a 16:30h.
+                </div>
+            </div>
+        </div>
+
+<!-- SECCION ACCORDION -->
+
+    <div class="container mt-5">
+        <!-- Sección Medios de Pago -->
+        <h5 class="tex">Medios de Pago</h5>
+        <div class="accordion mb-4" id="accordionMediosPago">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingPago1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePago1" aria-expanded="false" aria-controls="collapsePago1">
+                ¿Cómo puedo abonar mis pólizas?
                 </button>
-                <div class="collapse navbar-collapse bg-secondary" style="margin-left: -12px; margin-right: -12px; background-color: #FF4000 !important; padding: 36px;" id="navbarSupportedContent ">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item ">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Contactanos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Siniestros</a>
-                </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" href="#">Preguntas Frecuentes</a>
+                </h2>
+                <div id="collapsePago1" class="accordion-collapse collapse" aria-labelledby="headingPago1" data-bs-parent="#accordionMediosPago">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                Podés adherirlas a débito automático o abonar tus seguros a través de cualquiera de los medios de 
+                                pago habilitados.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Sección Consultas Generales -->
+        <h5 class="tex">Consultas Generales</h5>
+        <div class="accordion mb-4" id="accordionConsultas">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingConsulta1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseConsulta1" aria-expanded="false" aria-controls="collapseConsulta1">
+                    ¿A qué incidente se le considera siniestro?
+                </button>
+                </h2>
+                <div id="collapseConsulta1" class="accordion-collapse collapse" aria-labelledby="headingConsulta1" data-bs-parent="#accordionConsultas">
+                    <div class="accordion-body">
+                    <ul>
+                        <li>
+                            Siniestro es un acontecimiento que origina daños concretos que se encuentran garantizados en la póliza 
+                            contratada.
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingConsulta2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseConsulta2" aria-expanded="false" aria-controls="collapseConsulta2">
+                ¿Cómo modifico mis datos de mis pólizas?
+            </button>
+            </h2>
+            <div id="collapseConsulta2" class="accordion-collapse collapse" aria-labelledby="headingConsulta2" data-bs-parent="#accordionConsultas">
+                <div class="accordion-body">
+                    <strong>-</strong> Podés ingresar a nuestro sitio de Autogestión o contactarte con nosotros y te indicaremos cómo hacerlo: <br> <br>
+                        <ul>
+                            <li>Línea gratuita para consultas 0800 666 8400 de lunes a viernes, de 9 a 16:30 h.</li>
+                            <li>Chat online</li>
+                            <li>Casilla Institucional: info@escudoseguros.com</li>
+                            <li>Productor Asesor de Seguros con quien contrataste la póliza</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingConsulta3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseConsulta3" aria-expanded="false" aria-controls="collapseConsulta3">
+                ¿Cómo dar de baja una póliza?
+            </button>
+            </h2>
+            <div id="collapseConsulta3" class="accordion-collapse collapse" aria-labelledby="headingConsulta3" data-bs-parent="#accordionConsultas">
+            <div class="accordion-body">
+                <ul>
+                    <li>Si decidís dar de baja una póliza antes de que se cumpla el tiempo de vigencia de la misma, podrás 
+                        hacerlo con tu Productor Asesor de Seguros o a través de nuestro Centro de Atención al Cliente
+                        - 0 800 666 8400 - de lunes a viernes de 9 a 16:30 h.
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page"  href="#">Cotizar</a>
+                    <br>
+                    <li>
+                        Recordá tener disponible la póliza para que puedas facilitar los datos correspondientes. 
+                    </li>
+                    <br>
+                    <li>Si la póliza fue contratada a través de la web, podrás solicitar su rescisión desde el sitio de Autogestión 
+                        de Escudo Seguros Argentina.
+                    </li>
+                    <br>
+                    <li>Una vez allí, ingresá a “Mis Seguros”, hacé clic sobre la póliza contratada vía web y luego sobre 
+                        "Solicitud de rescisión". Se desplegará un formulario que deberás completar para que 
+                        Escudo Seguros pueda gestionar el proceso de baja correspondiente. Una vez que la póliza esté dada de 
+                        baja, ya no podrás verla dentro del listado de pólizas vigentes en la sección “Mis seguros”. 
                     </li>
                 </ul>
-                <button class="btn btn-light d-flex align-items-center gap-2 px-3 py-2 rounded-pill " type="submit" > 
-                    <img src="../public/icon/Per ingresar.svg" alt="iconoingresar">
-                    <a href=" ">
-                    </a>ingresar
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- SECCION AUTOMOTORES -->
+        <h5 class="tex">Automotores</h5>
+        <div class="accordion mb-4" id="accordionAutomotores">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingAuto1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAuto1" aria-expanded="false" aria-controls="collapseAuto1">
+                    ¿Qué hago si tengo un siniestro?
                 </button>
+                </h2>
+                <div id="collapseAuto1" class="accordion-collapse collapse" aria-labelledby="headingAuto1" data-bs-parent="#accordionAutomotores">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Tenés que dar aviso a la aseguradora dentro de las 72h de producido el acontecimiento para que 
+                                podamos ingresar una denuncia administrativa en la que se detallará: día, hora, lugar del siniestro, 
+                                daños de tu vehículo. Y en caso que haya terceros involucrados: sus datos personales, los de su 
+                                seguro y lesiones y/o daños materiales que hayan sufrido.</li> <br>
+
+                            <li>Cuanto antes nos brindes la información del siniestro, más rápido podremos brindarte una 
+                                adecuada respuesta. Podés hacerlo:
+                                <ul>
+                                    <br>
+                                    <li>Ingresando al portal de autogestión web.</li>
+                                    <li>Llamando al centro de atención al asegurado 0800 777 4643, las 24 h, los 365 días del año.</li>
+                                    <li>Dirigiéndote a la oficina de tu Productor Asesor de Seguros o las del Grupo.</li>
+                                </ul>
+
+                            </li> <br>
+                            <li>Una vez ingresada la denuncia, vas a tener que formalizarla firmándola, de manera electrónica o en 
+                                nuestras oficinas. También deberás presentar licencia de conducir y en caso de robo, además, la 
+                                denuncia policial.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingAuto2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAuto2" aria-expanded="false" aria-controls="collapseAuto2">
+                    ¿Cuanto tiempo tengo para reclamar un siniestro?
+                </button>
+                </h2>
+                <div id="collapseAuto2" class="accordion-collapse collapse" aria-labelledby="headingAuto2" data-bs-parent="#accordionAutomotores">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Si sos asegurado de nuestra compañía: luego de la denuncia realizada dentro de las 72 h de 
+                                ocurrido el siniestro, tenés hasta un año para gestionar el trámite. 
+                            </li>
+                            <li>Si no sos asegurado de Escudo Seguros: tenés hasta tres años para realizar el reclamo
+                                correspondiente.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </nav>
-    </header>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingAuto3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAuto3" aria-expanded="false" aria-controls="collapseAuto3">
+                    ¿Debo instalar el sistema de rastreo de mi vehículo?
+                </button>
+                </h2>
+                <div id="collapseAuto3" class="accordion-collapse collapse" aria-labelledby="headingAuto3" data-bs-parent="#accordionAutomotores">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Corresponde que lo instales en el caso que amerite, de acuerdo al valor de la unidad asegurada, 
+                                zona de riesgo de circulación y cobertura contratada. La instalación y uso del dispositivo tiene 
+                                autonomía propia por lo que no interfiere en el mecanismo de la unidad. Se encuentra bonificado 
+                                dentro de la cobertura de tu póliza.
+                            </li>
+                            <li>Es una exigencia de nuestra aseguradora para amparar la cobertura en caso de robo de la unidad y
+                                te será solicitada la instalación en caso de corresponder.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SECCION HOGAR -->
+        
+        <h5 class="tex">Seguros de Hogar</h5>
+        <div class="accordion mb-4" id="accordionHogar">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingHogar1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHogar1" aria-expanded="false" aria-controls="collapseHogar1">
+                    ¿Qué cubre el seguro de hogar?
+                </button>
+                </h2>
+                <div id="collapseHogar1" class="accordion-collapse collapse" aria-labelledby="headingHogar1" data-bs-parent="#accordionHogar">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Brinda cobertura de manera integral frente a los riesgos de incendio y daños de la naturaleza que 
+                                puedan afectar a la vivienda de uso familiar y su mobiliario.
+                            </li>
+                            <li>
+                                cubre por el riesgo de robo y/o hurto del mobiliario y los daños que sufra la 
+                                responsabilidad civil frente a terceros por hechos privados, entre otros riesgos.
+                            </li>
+                            <li>
+                                Podés elegir entre diferentes alternativas de combinaciones de coberturas preestablecidas o 
+                                diagramar específicamente las coberturas a la medida de tus necesidades.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingHogar2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHogar2" aria-expanded="false" aria-controls="collapseHogar2">
+                    ¿Cuáles son las condiciones para asegurar una casa?
+                </button>
+                </h2>
+                <div id="collapseHogar2" class="accordion-collapse collapse" aria-labelledby="headingHogar2" data-bs-parent="#accordionHogar">
+                    <div class="accordion-body">
+                        <strong>-</strong> Al momento de contratar un Seguro de Combinado Familiar, la vivienda deberá estar construida 
+                        con la siguiente estructura y cumplir con determinadas normas mínimas de seguridad: <br>
+                        <ul> <br>
+                            <li>
+                                Contener cerramientos laterales externos y techos de materiales clasificados como resistentes al 
+                                fuego o combustibles.
+                            </li> <br>
+                            <li>
+                                Estar habitada en carácter de permanencia.
+                            </li> <br>
+                            <li>
+                                Contar con cerradura doble paleta o bidimensionales en todas las puertas de acceso.
+                            </li> <br>
+                            <li>
+                                Las ventanas, puertas, tragaluces u otras aberturas con paneles de vidrio y/o similares de planta 
+                                baja y que den a la calle, patio o jardines, deberán tener una reja de protección de hierro.
+                            </li> <br>
+                            <li>
+                                En caso de que la vivienda no tenga rejas, debe tener un sistema de alarma.
+                            </li> <br>
+                            <li>
+                                Cuando se trata de viviendas en planta baja (casas o departamentos) que linden con un terreno 
+                                baldío, una plaza, una obra en construcción, una vivienda abandonada o una playa de 
+                                estacionamiento, deberán tener un muro o reja de al menos 1,80 m de altura.
+                            </li> <br>
+                            <li>
+                                Debe estar edificada de medianera a medianera, excepto que cuente con el mencionado muro 
+                                o reja.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingHogar3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHogar3" aria-expanded="false" aria-controls="collapseHogar3">
+                    ¿A que se llama Mobiliario Familiar?
+                </button>
+                </h2>
+                <div id="collapseHogar3" class="accordion-collapse collapse" aria-labelledby="headingHogar3" data-bs-parent="#accordionHogar">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                Mobiliario es el conjunto de elementos: muebles, ropa, objetos domésticos o de uso personal,
+                                provisiones y otros efectos personales que se encuentren en la vivienda propiedad del asegurado, 
+                                de sus familiares, del personal de servicio o de las personas que conviven con él.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEGUROS DE VIDA Y SALUD -->
+        
+        <h5 class="tex">Seguros de Vida y Salud</h5>
+        <div class="accordion mb-4" id="accordionVida">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingVida1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVida1" aria-expanded="false" aria-controls="collapseVida1">
+                    ¿Quién puede ser beneficiario en un seguro de vida?
+                </button>
+                </h2>
+                <div id="collapseVida1" class="accordion-collapse collapse" aria-labelledby="headingVida1" data-bs-parent="#accordionVida">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                El beneficiario del seguro de vida puede ser elegido por su titular, quien completará el Formulario 
+                                de Asignación del seguro contratado, a través de un intermediario.
+                            </li>
+                            <li>
+                                En caso de que no hayas elegido beneficiario, serán tus Herederos Legales (quienes serán los 
+                                determinados mediante la Declaratoria de Hederos).
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingVida2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVida2" aria-expanded="false" aria-controls="collapseVida2">
+                    ¿Qué es un seguro de salud?
+                </button>
+                </h2>
+                <div id="collapseVida2" class="accordion-collapse collapse" aria-labelledby="headingVida2" data-bs-parent="#accordionVida">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                El Seguro de Salud es una póliza que contempla coberturas de salud específicas, especialmente en 
+                                tramos de mayor complejidad. No es una obra social, ni una prepaga.
+                            </li>
+                            <li>
+                                En Escudo Seguros, tenemos para ofrecerte Salud Segura Max. Un seguro pensado para 
+                                acompañar con dinero en efectivo el impacto económico que tienen las familias ante ciertos gastos 
+                                médicos, independiente de la calidad del plan de salud que posean.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingVida3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVida3" aria-expanded="false" aria-controls="collapseVida3">
+                    ¿Qué es una Declaración Jurada de salud?
+                </button>
+                </h2>
+                <div id="collapseVida3" class="accordion-collapse collapse" aria-labelledby="headingVida3" data-bs-parent="#accordionVida">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                Es un requisito que debe cumplimentarse para la evaluación médica de la aseguradora. Consiste en 
+                                un formulario de diez preguntas sobre el estado de salud del potencial asegurado.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingVida4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVida4" aria-expanded="false" aria-controls="collapseVida4">
+                    ¿Cómo proceder para solicitar la provisión?
+                </button>
+                </h2>
+                <div id="collapseVida4" class="accordion-collapse collapse" aria-labelledby="headingVida4" data-bs-parent="#accordionVida">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                El asegurado titular y el profesional médico tratante deberán cumplimentar en forma íntegra los 
+                                formularios correspondientes.
+                            </li>
+                            <li>
+                                La solicitud de la medicación deberá realizarse con un período de veinte días de anticipación de la 
+                                fecha propuesta para su provisión.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingVida5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVida5" aria-expanded="false" aria-controls="collapseVida5">
+                    ¿Cómo comunico un siniestro a la aseguradora?
+                </button>
+                </h2>
+                <div id="collapseVida5" class="accordion-collapse collapse" aria-labelledby="headingVida5" data-bs-parent="#accordionVida">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                Tenés que completar el Formulario de Denuncia de Siniestro pertinente para cada cobertura, en 
+                                nuestro sitio de Autogestión. En caso de emergencias comunicate al 0800 666 8400 lunes a 
+                                viernes de 8 a 16:30.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEGUROS DE ACCIDENTES PERSONALES -->
+        
+        <h5 class="tex">Seguros de Accidentes Personales</h5>
+        <div class="accordion mb-4" id="accordionPerso">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingPerso1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePerso1" aria-expanded="false" aria-controls="collapsePerso1">
+                    ¿Es importante declarar la actividad en una cobertura de Accidentes personales?
+                </button>
+                </h2>
+                <div id="collapsePerso1" class="accordion-collapse collapse" aria-labelledby="headingPerso1" data-bs-parent="#accordionPerso">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                Sí, es importante porque de la misma depende la suscripción, evaluación del riesgo y el costo del 
+                                seguro.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingPerso2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePerso2" aria-expanded="false" aria-controls="collapsePerso2">
+                        ¿Cuál es la diferencia entre el producto Íntegro Max y Accidentes Personales ?
+                    </button>
+                    </h2>
+                    <div id="collapsePerso2" class="accordion-collapse collapse" aria-labelledby="headingPerso2" data-bs-parent="#accordionPerso">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>
+                                    Ambas coberturas son para Accidentes Personales. La principal diferencia es que para Íntegro Max 
+                                    la asistencia médico-farmacéutica es prestacional, es decir que la coordinamos nosotros y en caso 
+                                    de siniestro debés comunicarte a nuestra línea gratuita 0800 555 2850.
+                                </li>
+                                <li>
+                                    En cambio, para Accidentes Personales, podés atenderte con el profesional que elijas, abonar las 
+                                    atenciones médicas y farmacéuticas y luego presentar el comprobante para solicitar el reintegro 
+                                    de los gastos en la oficina donde contrataste la póliza.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingPerso3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePerso3" aria-expanded="false" aria-controls="collapsePerso3">
+                    ¿Qué sigifica en el producto ÍNTEGRO una Asistencia Médica Prestacional?
+                </button>
+                </h2>
+                <div id="collapsePerso3" class="accordion-collapse collapse" aria-labelledby="headingPerso3" data-bs-parent="#accordionPerso">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                La cobertura prestacional significa que, ante un accidente cubierto por la póliza que demande 
+                                tratamiento médico y farmacéutico, la aseguradora se hará cargo de los mismos. Asimismo, del 
+                                accidentado, que será atendido en los centros médicos de su red de prestadores hasta su 
+                                recuperación. Por lo que no deberá abonar ningún gasto en estos conceptos.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FUENTE: https://www.sancorseguros.com.ar/preguntas-frecuentes -->
+</main>
+
+
 
     <!-- footer -->
 
 <footer class=" text-center py-5 mt-5" style="background-color: #FF4000;">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-md-4">
-                <img src="../public/img/escudoblack.png" alt="" class="mb-3">
+                <img src="../public/img/escudoblack.png" alt="escudonegro" class="mb-3">
                 <div class="d-flex justify-content-center gap-3">
-                    <img src="../public/icon/x.svg" alt="" class="cursor-pointer">
-                    <img src="../public/icon/ig.svg" alt="" class="cursor-pointer">
-                    <img src="../public/icon/fb.svg" alt="" class="cursor-pointer">
+                    <img src="../public/icon/x.svg" alt="x" class="cursor-pointer">
+                    <img src="../public/icon/ig.svg" alt="Instagram" class="cursor-pointer">
+                    <img src="../public/icon/fb.svg" alt="Facebook" class="cursor-pointer">
                 </div>
             </div>
             <div class="col-md-8">
