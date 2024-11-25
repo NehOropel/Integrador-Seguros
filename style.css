@@ -19,6 +19,17 @@
     background-color: #FF4000;
 }
 
+/* Estilo del título con difuminado */
+.blur-text {
+    
+    font-weight: bold;
+    color: #ffffff; /* Color base */
+    text-shadow: 0 0 5px rgba(232, 98, 36, 0.6), /* Difuminado ligero */
+                 0 0 10px rgba(232, 98, 36, 0.4), /* Difuminado medio */
+                 0 0 15px rgba(232, 98, 36, 0.2); /* Difuminado suave */
+    margin-bottom: 20px;
+}
+
 .custom-card {
     background-color: #F08259;
     color: white;
